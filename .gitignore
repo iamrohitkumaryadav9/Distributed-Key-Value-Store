@@ -1,0 +1,31 @@
+# ── Build artifacts ──────────────────────────────────────────────────────────
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# ── Compiled objects and binaries ────────────────────────────────────────────
+*.o
+*.a
+*.so
+*.out
+kvstore
+
+# ── Editor / IDE files ──────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cache/
+compile_commands.json
+
+# ── OS files ────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── WAL and data files (will be relevant in Layer 4+) ───────────────────────
+*.wal
+data/
